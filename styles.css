@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header ul {
+  list-style: none;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem;
+}
+
+.header_section--user-items {
+  display: flex;
+  margin: 2rem 2rem 0 0;
+}
+
+.user-item {
+  margin: auto 2rem;
+  font-size: 1.4rem;
+}
+
+.store-name {
+  margin: 0 28rem;
+  font-size: 3rem;
+}
+
+.header-separator {
+  background-color: #000;
+  width: 41rem;
+  height: 1px;
+  margin: 1rem auto;
+  max-width: 50%;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-item {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1rem 4rem;
+}
+
+.navigation-item--separator {
+  margin: auto;
+  width: 0.5px;
+  height: 1rem;
+  background-color: #000;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+/* Swiper styles */
+.swiper-container {
+  height: 110vh;
+  position: relative;
+  bottom: 32rem;
+  z-index: -10;
+  display: flex;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 110vh;
+}
+
+.swiper-slide-in {
+  background-color: #ccc;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
